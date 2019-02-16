@@ -1,0 +1,21 @@
+{
+    "name": "alkaupp/httpclient",
+    "description": "HTTP client interface",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksi Kauppila",
+            "email": "aleksi.kauppila@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HttpClient\\": "src/"
+        }
+    }
+}
